@@ -1,7 +1,7 @@
 /* =Buttons
 -----------------------------------------------------------------------------*/
-.btn,
-input[type="submit"].btn {
+.button,
+input[type="submit"].button {
 	display: inline-block;
 	vertical-align: top;
 
@@ -32,28 +32,28 @@ input[type="submit"].btn {
 		background: @color-gray-dark;
 	}
 }
-.btn::-moz-focus-inner {
+.button::-moz-focus-inner {
 	border: 0;
 	padding: 0;
 }
-.btn-big,
-input[type="submit"].btn-big {
+.button-big,
+input[type="submit"].button-big {
 	font-size: @font-size-big;
 }
-.btn-small,
-input[type="submit"].btn-small {
+.button-small,
+input[type="submit"].button-small {
 	font-size: @font-size-small;
 }
-.btn-smaller,
-input[type="submit"].btn-smaller {
+.button-smaller,
+input[type="submit"].button-smaller {
 	font-size: @font-size-smaller;
 	vertical-align: baseline;
 }
-.btn-round {
+.button-round {
 	border-radius: 15px;
 }
-.btn-outline,
-input[type="submit"].btn-outline {
+.button-outline,
+input[type="submit"].button-outline {
 
 	background: none;
 	padding: @padding-btn-outline;
@@ -62,16 +62,16 @@ input[type="submit"].btn-outline {
 		border-color: @color-gray-dark;
 	}
 }
-.btn-outline.btn-active {
+.button-outline.button-active {
 	padding: @padding-btn;
 }
-.btn-outline.bold {
+.button-outline.bold {
 	border-width: 2px;
 	padding: @padding-btn-outline-bold;
 }
-.btn-active,
-.btn[disabled],
-.btn-disabled {
+.button-active,
+.button[disabled],
+.button-disabled {
 	background: none;
 	background: @color-gray-dark;
 	color: rgba(0, 0, 0, .5);
@@ -80,56 +80,56 @@ input[type="submit"].btn-outline {
 		background: @color-gray-dark;
 	}
 }
-.btn-active {
+.button-active {
 	box-shadow: 0 1px 3px rgba(0, 0, 0, .4) inset;
 }
-.btn-outline.btn[disabled],
-.btn-outline.btn-disabled {
+.button-outline.button[disabled],
+.button-outline.button-disabled {
 	background: none;
 	box-shadow: none;
 	color: rgba(0, 0, 0, .3);
 	border: 1px solid rgba(0, 0, 0, .1);
 }
-.btn-outline.btn-active {
+.button-outline.button-active {
 	background: none;
 	color: rgba(0, 0, 0, .4);
 	border: none;
 	box-shadow: 0 1px 3px rgba(0, 0, 0, .2) inset;
 }
-.btn[disabled],
-.btn-disabled {
+.button[disabled],
+.button-disabled {
 	cursor: default;
 	box-shadow: none;
 }
 
 
-.btn-blue,
-input[type="submit"].btn-blue {
+.button-blue,
+input[type="submit"].button-blue {
 	.make-color-btn(@color-blue, @color-blue-dark, #fff);
 }
-.btn-red,
-input[type="submit"].btn-red {
+.button-red,
+input[type="submit"].button-red {
 	.make-color-btn(@color-red, @color-red-dark, #fff);
 }
-.btn-green,
-input[type="submit"].btn-green {
+.button-green,
+input[type="submit"].button-green {
 	.make-color-btn(@color-green, @color-green-dark, #fff);
 }
-.btn-black,
-input[type="submit"].btn-black {
+.button-black,
+input[type="submit"].button-black {
 	.make-color-btn(@color-black, @color-black-light, #fff, .7);
 }
-.btn-yellow,
-input[type="submit"].btn-yellow {
+.button-yellow,
+input[type="submit"].button-yellow {
 	.make-color-btn(@color-yellow, @color-yellow-dark, #000);
 }
-.btn-white,
-input[type="submit"].btn-white {
+.button-white,
+input[type="submit"].button-white {
 	.make-color-btn(@color-white, darken(#fff, 7%), #000, .2);
 }
 
-.btn-white {
-	&.btn-outline.btn-active {
+.button-white {
+	&.button-outline.button-active {
 		box-shadow: none;
 		border: 1px solid rgba(255, 255, 255, .3);
 		padding: @padding-btn-outline;
@@ -140,36 +140,36 @@ input[type="submit"].btn-white {
 /*
 	Buttons Group
 */
-.btn-single,
-.btn-group {
+.button-single,
+.button-group {
 	display: inline-block;
 	margin-right: 2px;
 	.clearfix;
 	vertical-align: bottom;
 }
-.btn-single > .btn,
-.btn-single > input,
-.btn-group > .btn,
-.btn-group > input {
+.button-single > .button,
+.button-single > input,
+.button-group > .button,
+.button-group > input {
 	float: left;
 	border-radius: 0;
 	margin-left: -1px;
 }
-.btn-single > .btn {
+.button-single > .button {
 	border-radius: 2px;
 }
-.btn-group > .btn:first-child {
+.button-group > .button:first-child {
 	border-radius: 2px 0 0 2px;
 }
-.btn-group > .btn:last-child {
+.button-group > .button:last-child {
 	border-radius: 0 2px 2px 0;
 }
-.btn-group > .btn.btn-round:first-child,
-.btn-group > .input-search:first-child {
+.button-group > .button.button-round:first-child,
+.button-group > .input-search:first-child {
 	border-radius: 15px 0 0 15px;
 }
-.btn-group > .btn.btn-round:last-child,
-.btn-group > .input-search:last-child {
+.button-group > .button.button-round:last-child,
+.button-group > .input-search:last-child {
 	border-radius: 0 15px 15px 0;
 }
 
