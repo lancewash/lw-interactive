@@ -2169,9 +2169,13 @@ html, body {
   width: 100%;
 }
 
-/* line 26, ../scss/_grid-overrides.scss */
+/* line 22, ../scss/_grid-overrides.scss */
 .ui.grid {
   flex: 1;
+}
+/* line 25, ../scss/_grid-overrides.scss */
+.ui.grid > .half {
+  padding: 0;
 }
 
 /* line 33, ../scss/_grid-overrides.scss */
@@ -2180,13 +2184,13 @@ html, body {
 }
 
 /* line 37, ../scss/_grid-overrides.scss */
-.left-panel {
+.panel {
   display: inline-block !important;
   display: flex !important;
   justify-content: space-between;
 }
 /* line 42, ../scss/_grid-overrides.scss */
-.left-panel img {
+.panel img {
   align-self: center;
   display: block;
   margin: 0 auto;
@@ -2194,7 +2198,17 @@ html, body {
   width: 120px;
 }
 
-/* line 57, ../scss/_grid-overrides.scss */
+/* line 55, ../scss/_grid-overrides.scss */
+.panel-left {
+  background: black;
+}
+
+/* line 58, ../scss/_grid-overrides.scss */
+.panel-right {
+  background: white;
+}
+
+/* line 63, ../scss/_grid-overrides.scss */
 .ui.grid > .black.column,
 .ui.grid > .black.row,
 .ui.grid > .row > .black.column {

@@ -11,20 +11,20 @@ html, body {
 }
 
 .page-wrap {
-  //align-items: stretch;
-  //align-content: stretch;
   display: flex;
   flex-direction: column;
   min-height:100%;
   margin:0 auto;
   max-width:1600px;
-  //overflow:hidden;
-  //position: relative;
   width: 100%;
 }
 
 .ui.grid {
   flex: 1;
+
+  > .half{
+    padding: 0;
+  }
 
   //min-height:100%;
   //margin:0 auto;
@@ -34,7 +34,7 @@ html, body {
   flex: 1;
 }
 
-.left-panel {
+.panel {
   display: inline-block !important;
   display: flex !important;
   justify-content: space-between;
@@ -52,6 +52,12 @@ html, body {
   }
 }
 
+.panel-left {
+  background: rgba(0,0,0,1);
+}
+.panel-right {
+  background: rgba(255,255,255,1);
+}
 .ui.grid > .black.column,
 .ui.grid > .black.row,
 .ui.grid > .row > .black.column {
