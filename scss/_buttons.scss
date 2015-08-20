@@ -1,6 +1,6 @@
 /* =Buttons
 -----------------------------------------------------------------------------*/
-.btn {
+.button {
     display: inline-block;
     vertical-align: top;
 
@@ -30,37 +30,37 @@
         background: #dbdada;
     }
 }
-input[type="submit"].btn {
+input[type="submit"].button {
     -webkit-appearance: none;
 }
-.btn-small {
+.button-small {
     font-size: $buttonsSmallFontSize;
     padding: 7px 16px;
 }
-.btn-outline {
+.button-outline {
     background: none;
     border: 1px solid #ddd;
     padding: 8px 19px;
-    &.btn-small {
+    &.button-small {
         padding: 6px 15px;
     }
 }
 
 
-.btn-blue,
-.btn-red,
-.btn-green,
-.btn-black {
+.button-blue,
+.button-red,
+.button-green,
+.button-black {
     color: #fff;
     &:hover {
         color: rgba(255, 255, 255, .7);
     }
 }
-.btn-white {
+.button-white {
     background: #fff;
     &:hover { background: darken(#fff, 5%); }
 }
-.btn-white.btn-outline {
+.button-white.button-outline {
     background: none;
     border-color: rgba(255, 255, 255, .85);
     color: rgba(255, 255, 255, .85);
@@ -69,33 +69,33 @@ input[type="submit"].btn {
         background: #fff;
     }
 }
-.btn-blue {
+.button-blue {
     background: $colorBlue;
     &:hover { background: darken($colorBlue, 10%); }
 }
-.btn-red {
+.button-red {
     background: $colorRed;
     &:hover { background: darken($colorRed, 10%); }
 }
-.btn-green {
+.button-green {
     background: $colorGreen;
     &:hover { background: darken($colorGreen, 10%); }
 }
-.btn-yellow {
+.button-yellow {
     background: $colorYellow;
     color: #000;
     &:hover {
         background: darken($colorYellow, 17%);
     }
 }
-.btn-black {
+.button-black {
     background: #000;
     &:hover { background: lighten(#000, 20%); }
 }
 
-.btn-active,
-.btn[disabled],
-.btn-disabled {
+.button-active,
+.button[disabled],
+.button-disabled {
     border: none;
     background: none;
     background-color: #dbdada;
@@ -104,67 +104,67 @@ input[type="submit"].btn {
         color: rgba(0, 0, 0, .5);
     }
 }
-.btn-active {
+.button-active {
     box-shadow: 0 1px 3px rgba(0, 0, 0, .4) inset;
 }
-.btn[disabled],
-.btn-disabled {
+.button[disabled],
+.button-disabled {
     cursor: default;
     box-shadow: none;
 }
 
-.btn-blue.btn-active,
-.btn-red.btn-active,
-.btn-green.btn-active,
-.btn-black.btn-active {
+.button-blue.button-active,
+.button-red.button-active,
+.button-green.button-active,
+.button-black.button-active {
     box-shadow: 0 1px 3px rgba(0, 0, 0, .7) inset;
 }
 
-.btn-blue.btn-active,
-.btn-red.btn-active,
-.btn-green.btn-active,
-.btn-black.btn-active,
-.btn-blue.btn-disabled,
-.btn-red.btn-disabled,
-.btn-green.btn-disabled,
-.btn-black.btn-disabled,
-.btn-blue[disabled],
-.btn-red[disabled],
-.btn-green[disabled],
-.btn-black[disabled] {
+.button-blue.button-active,
+.button-red.button-active,
+.button-green.button-active,
+.button-black.button-active,
+.button-blue.button-disabled,
+.button-red.button-disabled,
+.button-green.button-disabled,
+.button-black.button-disabled,
+.button-blue[disabled],
+.button-red[disabled],
+.button-green[disabled],
+.button-black[disabled] {
     color: rgba(255, 255, 255, .6);
     &:hover {
         color: rgba(255, 255, 255, .6);
     }
 }
 
-.btn-white.btn-active,
-.btn-white.btn-disabled,
-.btn-white[disabled] {
+.button-white.button-active,
+.button-white.button-disabled,
+.button-white[disabled] {
     background: darken(#fff, 5%);
 }
-.btn-blue.btn-active,
-.btn-blue.btn-disabled,
-.btn-blue[disabled] {
+.button-blue.button-active,
+.button-blue.button-disabled,
+.button-blue[disabled] {
     background: darken($colorBlue, 10%);
 }
-.btn-red.btn-active,
-.btn-red.btn-disabled,
-.btn-red[disabled] {
+.button-red.button-active,
+.button-red.button-disabled,
+.button-red[disabled] {
     background: darken($colorRed, 10%);
 }
-.btn-green.btn-active,
-.btn-green.btn-disabled,
-.btn-green[disabled] {
+.button-green.button-active,
+.button-green.button-disabled,
+.button-green[disabled] {
     background: darken($colorGreen, 10%);
 }
-.btn-yellow.btn-active,
-.btn-yellow.btn-disabled,
-.btn-yellow[disabled] {
+.button-yellow.button-active,
+.button-yellow.button-disabled,
+.button-yellow[disabled] {
     background: darken($colorYellow, 17%);
 }
-.btn-black.btn-active,
-.btn-black.btn-disabled,
-.btn-black[disabled] {
+.button-black.button-active,
+.button-black.button-disabled,
+.button-black[disabled] {
     background: lighten(#000, 30%);
 }

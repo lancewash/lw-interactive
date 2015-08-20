@@ -23,23 +23,23 @@ h5,
 h6 {
     font-family: $headingsFontFamily;
     font-weight: bold;
-    color: $colorHeadings;
+    color: darken($colorHeadings, 30%);
     text-rendering: optimizeLegibility;
 }
 h1 {
     font-size: $h1FontSize;
     line-height: 1.111em;
-    margin-bottom: .25em;
+    margin-bottom: .75em;
 }
 h2 {
     font-size: $h2FontSize;
     line-height: 1.111em;
-    margin-bottom: .5em;
+    margin-bottom: .75em;
 }
 h3 {
     font-size: $h3FontSize;
     line-height: 1.333em;
-    margin-bottom: .5em;
+    margin-bottom: 1.5em;
 }
 h4 {
     font-size: $h4FontSize;

@@ -27,6 +27,7 @@
 }
 .navbar ul li a,
 .navbar ul li span {
+    font-family: $mainNavFontFamily;
     display: block;
     text-decoration: none;
 }

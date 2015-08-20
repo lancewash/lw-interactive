@@ -1,21 +1,22 @@
 // Font
-$baseFontFamily: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$headingsFontFamily: $baseFontFamily;
+$baseFontFamily: 'merriweather_lightregular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+$headingsFontFamily: 'merriweather_lightregular';
 $controlsFontFamily: $baseFontFamily;
 $codeFontFamily: Menlo, Monaco, Consolas, "Courier New", monospace;
+$mainNavFontFamily: 'montserratregular';
 
 // Base color
 $backgroundBody: #fff;
-$colorBody: #333;
-$colorHeadings: #222;
+$colorBody: rgba(113,109,103,.75);
+$colorHeadings: #716D67;
 
 // Grid
 $gridWidth: 1000;
 $gridGutterWidth: 30;
 
 // Type
-$baseFontSize: 14;
-$baseLineHeight: 1.6;
+$baseFontSize: 20;
+$baseLineHeight: 2.25;
 $baseLine: $baseFontSize * $baseLineHeight;
 $baseLineInEms: $baseLine / $baseFontSize;
 
@@ -34,7 +35,7 @@ $h4SubheadingFontSize: $baseFontSize + 0px; // 14px
 $h5SubheadingFontSize: $baseFontSize - 2px; // 12px
 
 // Font size
-$superSmallFontSize: $baseFontSize - 4px; // 10px
+$superSmallFontSize: $baseFontSize - 6px; // 10px
 $smallFontSize: $baseFontSize - 2px; // 12px
 $leadFontSize: $baseFontSize + 4px; // 18px
 $bigFontSize: $baseFontSize + 4px; // 18px
@@ -49,8 +50,8 @@ $colorGreen: #159776;
 $colorYellow: #fddc43;
 
 // LinkColor
-$colorLink: #3570c3;
-$colorLinkHover: $colorRed;
+$colorLink: rgba(113,109,103,.75);
+$colorLinkHover: #FABD05;
 
 // Forms
 $fieldsBottom: 1.6em;
