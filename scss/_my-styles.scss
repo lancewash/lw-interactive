@@ -3,7 +3,7 @@
 body:before, body:after {
     content: "";
     position: fixed;
-    background: rgba(113,109,103,1);
+    background: rgba(0,0,0,1);
     left: 0;
     right: 0;
     height: 4px;
@@ -15,8 +15,13 @@ body:after {
     bottom: 0;
 }
 body {
-    border-left: 4px solid rgba(113,109,103,1);
-    border-right: 4px solid rgba(113,109,103,1);
+    background: #000;
+    border-left: 4px solid rgba(0,0,0,1);
+    border-right: 4px solid rgba(0,0,0,1);
+}
+
+.page-wrap {
+    background: rgba(255, 255, 255, 1);
 }
 a {
     font-size: $superSmallFontSize - 2px;
@@ -36,7 +41,22 @@ header {
     max-width: 1000px;
     padding-bottom: 7em;
 }
+.projects {
+    
+    img {
+        margin-bottom: -1em;
+    }
 
+   //.project-1 {
+   //    background: url("../img/projects/n2n-cdc.jpg") no-repeat;
+   //    height: 800px;
+   //    width: 100%;
+   //}
+}
+.toggle {
+    background: #000;
+    height: 50px;
+}
 .units-row {
     display: -webkit-box;
     display: -webkit-flex;

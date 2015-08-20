@@ -138,6 +138,10 @@ select.unit-100   { width: 99.4%; }
     @include rem('padding', $baseLineInEms);
 }
 
+.units-row.units-split{
+    margin-bottom: 0 !important;
+}
+
 .units-split .unit-90,
 .units-split .unit-80,
 .units-split .unit-75,
