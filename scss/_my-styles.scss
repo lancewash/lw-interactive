@@ -23,6 +23,9 @@ body {
 .page-wrap {
     background: rgba(255, 255, 255, 1);
 }
+.header-main {
+    height:100vh;
+}
 a {
     font-size: $superSmallFontSize - 2px;
     letter-spacing: .075em;
@@ -53,10 +56,10 @@ header {
    //    width: 100%;
    //}
 }
-.toggle {
+/*.toggle {
     background: #000;
     height: 50px;
-}
+}*/
 .units-row {
     display: -webkit-box;
     display: -webkit-flex;
@@ -66,7 +69,7 @@ header {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    min-height: 14em;
+    min-height: 50%;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
