@@ -6,7 +6,7 @@ body:before, body:after {
     background: rgba(0,0,0,1);
     left: 0;
     right: 0;
-    height: 4px;
+    height: 3px;
 }
 body:before {
     top: 0;
@@ -16,12 +16,22 @@ body:after {
 }
 body {
     background: #000;
-    border-left: 4px solid rgba(0,0,0,1);
-    border-right: 4px solid rgba(0,0,0,1);
+    border-left: 3px solid rgba(0,0,0,1);
+    border-right: 3px solid rgba(0,0,0,1);
 }
-
+.units-split .unit-50 {
+    max-width: 50%;
+}
+.units-split .unit-33 {
+    max-width: 33.33333333%;
+}
+.units-split .unit-25 {
+    max-width: 25%;
+}
 .page-wrap {
     background: rgba(255, 255, 255, 1);
+    margin: 0 auto;
+    max-width: 90em;
 }
 .header-main {
     height:100vh;
@@ -43,6 +53,12 @@ header {
     margin: 0 auto;
     max-width: 1000px;
     padding-bottom: 7em;
+}
+.header-nav {
+    height: 40%;
+}
+.header-call {
+    height: 60%;
 }
 .projects {
     
@@ -69,7 +85,7 @@ header {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    min-height: 50%;
+    //min-height: 50%;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -96,4 +112,14 @@ main {
     .right {
         float: none;
     }
+   /* .units-split .unit-50 {
+        max-width: 50%;
+    }
+    .units-split .unit-33 {
+        max-width: 33.33333333%;
+    }
+    .units-split .unit-25 {
+        min-width: 100% !important;
+        max-width: 100%;
+    }*/
 }
